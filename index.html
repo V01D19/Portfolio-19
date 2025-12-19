@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Amr Khaled (0xV01D-19), Cyber Security Specialist and Penetration Tester.">
+    <title>Amr Khaled | Cyber Security Specialist</title>
+    <!-- Google Fonts for Tech/Hacker Vibe -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&family=Share+Tech+Mono&family=Inter:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons (using CDN for simplicity) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Matrix Background Canvas -->
+    <canvas id="matrix-bg"></canvas>
+
+    <!-- Overlay content -->
+    <div class="overlay">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">&lt;0xV01D-19/&gt;</div>
+            <ul class="nav-links">
+                <li><a href="#hero">~/Home</a></li>
+                <li><a href="#about">./About</a></li>
+                <li><a href="#skills">./Skills</a></li>
+                <li><a href="#projects">./Projects</a></li>
+                <li><a href="#contact">./Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <p class="terminal-prompt">root@amr:~$ <span class="typing-effect">init_sequence_0x1.sh</span></p>
+                <h1 class="glitch-text" data-text="Amr Khaled">Amr Khaled</h1>
+                <h2 class="subtitle">Cyber Security Specialist <span class="accent">||</span> Penetration Testing</h2>
+                <p class="intro-text">
+                    Cyber security student with a strong passion for penetration testing and ethical hacking.
+                    Driven by curiosity to understand how systems work and how vulnerabilities can be discovered and
+                    secured.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary-btn">[ VIEW PROJECTS ]</a>
+                    <a href="#contact" class="btn secondary-btn">[ CONTACT ME ]</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">> whoami</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>I am <strong>Amr Khaled</strong>, also known as <span class="accent">0xV01D-19</span>, a student
+                        at the <strong>Faculty of Computers and Information, Mansoura University</strong>. I specialize
+                        in Cyber Security, with a primary focus on Penetration Testing.</p>
+                    <br>
+                    <p>From an early age, I’ve been deeply interested in understanding how systems operate internally. I
+                        enjoy analyzing applications, breaking them down, and identifying weaknesses from an attacker’s
+                        perspective. I believe that strong security starts with a deep technical understanding,
+                        continuous learning, and hands-on experimentation.</p>
+                </div>
+                <!-- Profile Image / Avatar Placeholder using FontAwesome if no image provided -->
+                <div class="about-avatar">
+                    <div class="hacker-avatar-frame">
+                        <div class="avatar-inner">
+                            <img src="profile.jpg" alt="Amr Khaled" class="profile-img">
+                            <div class="scanline"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2 class="section-title">> cat experience.log</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="date">2024 – Present</span>
+                    <h3>Self-Taught Cyber Security Student</h3>
+                    <h4>Mansoura University</h4>
+                    <ul>
+                        <li>Actively studying cyber security and penetration testing concepts through self-study and
+                            hands-on practice.</li>
+                        <li>Building foundational knowledge in programming, web technologies, and Linux environments.
+                        </li>
+                        <li>Continuously improving technical skills through real-world experimentation.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">> ls -la /skills</h2>
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-code"></i> Languages</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">C++</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                <!-- Web Technologies -->
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-globe"></i> Web Tech</h3>
+                    <div class="skill-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                <!-- OS -->
+                <div class="skill-category">
+                    <h3><i class="fa-brands fa-linux"></i> OS</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Ubuntu Linux</span>
+                    </div>
+                </div>
+                <!-- Security Focus -->
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-shield-halved"></i> Security Focus</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Penetration Testing</span>
+                        <span class="tag">Cyber Security Fundamentals</span>
+                        <span class="tag">Vulnerability Analysis</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section">
+            <h2 class="section-title">> ./services --list</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-bug"></i></div>
+                    <h3>Penetration Testing</h3>
+                    <p>Testing systems for vulnerabilities and security weaknesses.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                    <h3>Vulnerability Assessment</h3>
+                    <p>Analyzing and reporting potential security risks.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-brands fa-linux"></i></div>
+                    <h3>Linux Security Tools</h3>
+                    <p>Utilizing Linux-based tools for security auditing.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-lock"></i></div>
+                    <h3>Web App Security</h3>
+                    <p>Understanding and securing web application fundamentals.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">> ./projects_launcher</h2>
+            <div class="cards-grid">
+                <div class="card project-card">
+                    <h3>Web Fundamentals Website</h3>
+                    <p>A beginner-level website built during my web development learning journey using core web
+                        technologies (HTML and JavaScript).</p>
+                    <a href="#" target="_blank" class="btn link-btn disabled-link"><i class="fa-brands fa-github"></i>
+                        GitHub Repository (TBD)</a>
+                </div>
+                <div class="card project-card">
+                    <h3>Planned Penetration Testing Tools</h3>
+                    <p>Future projects focused on developing custom security tools and utilities to support penetration
+                        testing workflows.</p>
+                    <span class="status-badge">COMING SOON</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title">> connect_remote_host</h2>
+            <div class="contact-container">
+                <div class="contact-info hacker-frame">
+                    <div class="contact-inner">
+                        <h3>Let's Collaborate</h3>
+                        <p>Interested in working together or discussing security? Ping me.</p>
+                        <!-- "Send Signal" Button converted to mailto link -->
+                        <a href="mailto:khaleded75215@gmail.com" class="btn primary-btn email-btn">
+                            <i class="fa-solid fa-envelope"></i> Send Signal
+                        </a>
+                        <div class="scanline"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="social-links">
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/amr.khaled.430811" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/amr-khaled-6bbb0625a/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <!-- X (Twitter) -->
+                <a href="https://x.com/amrkhaled733091" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <!-- Instagram (Added per previous convo context, usually requested together, though specific URL wasn't in main prompt, I will add placeholder or omit based on prompt. Prompt said 'Contact & Social Links' contained FB, LI, X. I will stick to those to be safe, but the summary mentioned Instagram. I will add it if I have a link, otherwise I will stick to provided links to avoid dead links. User provided FB, LI, X. I will stick to these.) -->
+            </div>
+            <p class="copyright">
+                &copy; 2025 Amr Khaled [0xV01D-19]. All Systems Operational.
+            </p>
+        </footer>
+    </div>
+
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
