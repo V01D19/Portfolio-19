@@ -39,28 +39,20 @@ if (canvas) {
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
 
-/* 
- * User requested to "don't active the switch mode icon".
- * Assuming this refers to the hamburger interaction/toggle.
- * Code commented out to disable interactivity.
- */
-/*
 if (hamburger) {
     hamburger.addEventListener('click', () => {
         navLinks.classList.toggle('active');
         hamburger.classList.toggle('toggle');
     });
 }
-*/
 
-// Close mobile menu when clicking a link (also disabled since menu won't open)
-/*
+// Close mobile menu when clicking a link
 document.querySelectorAll('.nav-links li a').forEach(link => {
     link.addEventListener('click', () => {
         navLinks.classList.remove('active');
+        hamburger.classList.remove('toggle');
     });
 });
-*/
 
 
 // Typing Effect for "init_sequence_0x1.sh"
