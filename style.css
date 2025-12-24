@@ -614,6 +614,11 @@ h1.glitch-text {
     display: inline-block;
 }
 
+.link-btn {
+    margin-top: 15px;
+    display: inline-block;
+}
+
 /* Contact */
 .contact-container {
     text-align: center;
